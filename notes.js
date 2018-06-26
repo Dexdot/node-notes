@@ -45,7 +45,7 @@ const removeNote = title => {
 };
 
 const printNote = note =>
-  console.log(`Title - ${note.title}\nBody - ${note.body}`);
+  console.log(`Title - ${note.title}\nBody - ${note.body}\n`);
 
 const getAll = () => fetchNotes();
 
